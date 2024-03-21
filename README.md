@@ -1,5 +1,6 @@
 
 
+Mainly because pandas_datareader can't work with Yahoo Finance now, relative codes are modified
 
 # Learn Algorithmic Trading 
 
@@ -14,12 +15,14 @@ It’s now harder than ever to get a significant edge over competitors in terms 
 
 
 This book covers the following exciting features:
-Understand the components of modern algorithmic trading systems and strategies 
+```
+Understand the components of modern algorithmic trading systems and strategies
 Apply machine learning in algorithmic trading signals and strategies using Python 
 Build, visualize and analyze trading strategies based on mean reversion, trend, economic releases and more 
 Quantify and build a risk management system for Python trading strategies 
 Build a backtester to run simulated trading strategies for improving the performance of your trading bot 
 Deploy and incorporate trading strategies in the live market to maintain and improve profitability
+```
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/178934834X) today!
 
