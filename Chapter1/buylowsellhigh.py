@@ -1,8 +1,9 @@
 from pandas_datareader import data
+import yfinance as yf
+yf.pdr_override()
 start_date = '2014-01-01'
 end_date = '2018-01-01'
-goog_data = data.DataReader('GOOG', 'yahoo', start_date, end_date)
-
+goog_data = data.get_data_yahoo('GOOG', start=start_date, end=end_date)
 
 import numpy as np
 import pandas as pd
